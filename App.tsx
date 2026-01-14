@@ -22,7 +22,7 @@ import {
   Languages
 } from 'lucide-react';
 import { TechniqueType, TECHNIQUES } from './types';
-import { analyzeAndSolve, EnhancedSolution } from './services/geminiService';
+import { analyzeAndSolve, EnhancedSolution } from './geminiService';
 import { translations, PREDEFINED_EXAMPLES, CREATIVE_QUOTES, Language } from './i18n';
 
 interface Toast {
